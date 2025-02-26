@@ -1,0 +1,17 @@
+@import url('../../../../App.css');
+.tool{
+    color: white;
+    font-size:2em;
+    display:flex;
+    font-weight:400;
+    margin-top:50px;
+}
+.tool i{
+    margin-right:10px;
+}
+.tool p{
+    margin:-5px 0px;
+    padding:0px;
+    height:100%;
+    
+}
