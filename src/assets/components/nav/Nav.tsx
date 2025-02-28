@@ -8,7 +8,7 @@ interface NavProps {
 const Nav: React.FC<NavProps> = ({texto})=>{
     return (
         <div className = "nav">
-            {texto}
+            <a>{texto}</a>
         </div>
     )
 }

@@ -1,0 +1,98 @@
+.card{
+    height:650px;
+    width: 550px;
+    border-radius:20px;
+    background:var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding:15px;
+}
+.card-img-container video{
+    width:100%;
+}
+.card-data-container{
+    display:flex;
+    justify-content: space-between;
+    width:95%;
+    align-self: center;
+}
+
+.card-data-container .portfolio-textoEtiqueta{
+    border-radius: 20px;
+    background:rgba(195,119,219,0.5);
+    color: var(--fourth-color);
+    padding: 0px 15px;
+    font-size:15px;
+    font-weight:600;
+    display:flex;
+    align-items: center;;
+}
+
+.card-data-container .portfolio-textoAdicional{
+    padding: 10px 0px;
+    font-size:15px;
+    color: var(--white-color);
+    font-weight:300;
+    background: var(--secondary-color);
+    border-radius:5px;
+    padding: 5px 15px;
+}
+
+.card h2{
+    display:flex;
+    justify-self: left;
+    margin-left:20px;
+}
+.card .card-description-container p{
+    margin-left:20px;
+}
+
+.btn-verMas {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+
+.btn-verMas::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ff66c4, #b574f7);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+.btn-verMas:hover{
+    background: linear-gradient(90deg, #ff66c4, #b574f7); 
+}
+
+
+.btn-verMas span {
+    background: linear-gradient(90deg, #ff66c4, #b574f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease-in-out;
+}
+
+
+.btn-verMas:hover span{
+    background: none; 
+    -webkit-background-clip: unset; 
+    -webkit-text-fill-color: var(--primary-color); 
+    color: var(--primary-color); 
+}

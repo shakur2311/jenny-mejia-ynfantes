@@ -1,0 +1,47 @@
+
+.skill{
+    width:300px;
+    background: var(--secondary-color);
+    height:300px;
+    border-radius:20px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: transform 1.5s ease;
+    display:flex;
+    justify-content: center;
+}
+.skill-front, .skill-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill:hover{
+    transform: rotateY(180deg)
+}
+.skill i{
+    font-size:60px;
+}
+.skill-back{
+    transform: rotateY(180deg);
+    font-size:15px;
+    text-align: justify;
+    width:80%;
+    margin:auto;
+}
+
+
+
+
+
+/* Media queries */
+@media (max-width: 768px) {
+    .skill{
+      width:350px;
+    }
+  }
