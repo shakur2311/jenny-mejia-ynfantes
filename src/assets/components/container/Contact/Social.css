@@ -1,0 +1,26 @@
+.social{
+    width:20%;
+    text-align: center;
+}
+.social i{
+    font-size:50px;
+    text-align: center;
+    margin:auto;
+    background: linear-gradient(90deg, #ff66c4, #b574f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social p{
+    font-weight: 400;
+    color: var(--fourth-color);
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .social i{
+      font-size:1.3em;
+    }
+    .social p{
+        font-size:0.6em;
+    }
+  }

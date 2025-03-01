@@ -3,6 +3,7 @@ import About from './assets/components/container/About.tsx'
 import Skills from './assets/components/container/Skills.tsx'
 import Portfolio from './assets/components/container/Portfolio.tsx'
 import Contact from './assets/components/container/Contact.tsx'
+import Footer from './assets/components/container/Footer.tsx'
 import './App.css'
 import {useState, useEffect} from 'react';
 
@@ -35,7 +36,7 @@ function App() {
         <Skills></Skills>
         <Portfolio></Portfolio>
         <Contact></Contact>
-        
+        <Footer></Footer>
       </div>
   )
 }
