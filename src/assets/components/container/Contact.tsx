@@ -1,4 +1,4 @@
-import Social from './Contact/social.tsx';
+import Social from './Contact/Social.tsx';
 
 const Contact: React.FC = ()=>{
     return (
