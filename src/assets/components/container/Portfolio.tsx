@@ -3,7 +3,7 @@ import Card from './Portfolio/Card.tsx';
 
 const Portfolio: React.FC = ()=>{
     return (
-        <div className='portfolio'>
+        <div className='portfolio' id="portfolio">
             <div className="container">
                 <div className="tituloPortfolio">
                     <h2>Portfolio</h2>

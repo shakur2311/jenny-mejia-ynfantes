@@ -2,7 +2,7 @@ import Social from './Contact/Social.tsx';
 
 const Contact: React.FC = ()=>{
     return (
-        <div className='contact'>
+        <div className='contact' id="contact">
             <div className="container">
                 <div className="tituloContacto">
                     <h2>Contacto</h2>

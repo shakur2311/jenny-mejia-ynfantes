@@ -3,7 +3,7 @@ import Skill from './Skills/Skill.tsx';
 
 const Skills: React.FC = ()=>{
     return (
-        <div className='skills'>
+        <div className='skills' id="skills">
             <div className="container">
                 <div className="tituloSkills">
                     <h2>Servicios y Habilidades</h2>

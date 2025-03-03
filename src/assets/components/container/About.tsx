@@ -3,7 +3,7 @@ import Tool from '../../components/container/About/Tool.tsx';
 
 const About: React.FC = ()=>{
     return (
-        <div className='about'>
+        <div className='about' id="about">
             <div className="container">
                 <div className="about-left-side">
                     <h2>Jenny Mejia Ynfantes texto texto</h2>

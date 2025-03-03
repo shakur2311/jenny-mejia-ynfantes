@@ -2,13 +2,14 @@
 
 interface NavProps {
     texto: string;
+    href: string;
 }
 
 
-const Nav: React.FC<NavProps> = ({texto})=>{
+const Nav: React.FC<NavProps> = ({texto,href})=>{
     return (
         <div className = "nav">
-            <a>{texto}</a>
+            <a href={href}>{texto}</a>
         </div>
     )
 }
