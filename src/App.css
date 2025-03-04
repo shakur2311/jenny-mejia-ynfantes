@@ -367,6 +367,23 @@ body{
   -webkit-text-fill-color: var(--primary-color); 
   color: var(--primary-color); 
 }
+#correoInput:valid + #correoLabel{
+  top: -10px; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+#mensajeInput:valid + #mensajeLabel{
+  top: -10px; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+#asuntoInput:valid + #asuntoLabel{
+  top: -10px; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
 
 /* Footer */
 .footer{
